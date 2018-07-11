@@ -7,7 +7,7 @@ class ArticlesController < ApplicationController
     if @article.valid?
       @article.save
     else
-      render action: 'new'
+      render action: 'new' 
     end
   end
 
